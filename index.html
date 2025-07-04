@@ -1,82 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+    <!-- 
     - primary meta tags
   -->
-  <title>Blueprint</title>
-  <meta name="title" content="Blueprint">
-  <meta name="description" content="This is a business agency html template made by codewithsadee">
+    <title>Blueprint</title>
+    <meta name="title" content="Blueprint" />
+    <meta
+      name="description"
+      content="This is a business agency html template made by codewithsadee"
+    />
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/9.png" type="image/svg+xml">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/9.png"
+      type="image/svg+xml"
+    />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
+    <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-bg.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
 
-</head>
-
-<body>
-
-  <!-- 
+  <body>
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="container">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/light-logo.png"
+            width="74"
+            height="24"
+            alt="Blueprint home"
+            class="logo-light"
+          />
 
-      <a href="#" class="logo">
-        <img src="./assets/images/light-logo.png" width="74" height="24" alt="Blueprint home" class="logo-light">
+          <img
+            src="./assets/images/UTF-8logo.jpg"
+            width="74"
+            height="24"
+            alt="Blueprint home"
+            class="logo-dark"
+          />
+        </a>
 
-        <img src="./assets/images/UTF-8logo.jpg" width="74" height="24" alt="Blueprint home" class="logo-dark">
-      </a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/UTF-8logo.jpg"
+                width="74"
+                height="24"
+                alt="Blueprint home"
+              />
+            </a>
 
-      <nav class="navbar" data-navbar>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
 
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/UTF-8logo.jpg" width="74" height="24" alt="Blueprint home">
-          </a>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
 
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">About</a>
-          </li>
-<!-- 
+            <li>
+              <a href="#" class="navbar-link">About</a>
+            </li>
+            <!-- 
           <li>
             <a href="#" class="navbar-link">Projects</a>
           </li>
@@ -88,355 +113,396 @@
           <li>
             <a href="#" class="navbar-link">Contact</a>
           </li> -->
+          </ul>
 
-        </ul>
+          <div class="wrapper">
+            <a href="mailto:info@blueprint.co.ug" class="contact-link"
+              >info@blueprint.co.ug</a
+            >
 
-        <div class="wrapper">
-          <a href="mailto:info@blueprint.co.ug" class="contact-link">info@blueprint.co.ug</a>
+            <a href="tel:001234567890" class="contact-link">+256 778 315 225</a>
+          </div>
 
-          <a href="tel:001234567890" class="contact-link">+256 778 315 225</a>
-        </div>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <!-- <li>
+            <!-- <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li> -->
 
-          <!-- <li>
+            <!-- <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-dribbble"></ion-icon>
             </a>
           </li> -->
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-          <!-- <li>
+            <!-- <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-youtube"></ion-icon>
             </a>
           </li> -->
+          </ul>
+        </nav>
 
-        </ul>
+        <a href="/form.html" class="btn btn-primary">Client info</a>
 
-      </nav>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
 
-      <a href="https://crm.blueprint.co.ug" class="btn btn-primary">Client login</a>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
+    <main>
+      <article>
+        <!-- 
         - #HERO
       -->
 
-      <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.png')">
-        <div class="container">
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.png')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">
+                Crafting project specific solutions with expertise.
+              </h1>
 
-          <div class="hero-content">
+              <p class="hero-text">
+                We’re a creative company that focuses on establishing long-term
+                relationships with customers.
+              </p>
 
-            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+              <div class="btn-wrapper">
+                <a href="#" class="btn btn-primary">Explore Now</a>
 
-            <p class="hero-text">
-              We’re a creative company that focuses on establishing long-term relationships with customers.
-            </p>
-
-            <div class="btn-wrapper">
-
-              <a href="#" class="btn btn-primary">Explore Now</a>
-
-              <a href="#" class="btn btn-outline">Contact Us</a>
-
+                <a href="#" class="btn btn-outline">Contact Us</a>
+              </div>
             </div>
 
-          </div>
-
-          <div class="hero-slider" data-slider>
-
-            <div class="slider-inner">
-              <ul class="slider-container" data-slider-container>
-
-                <li class="slider-item">
-
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/img1.png" width="575" height="550" alt="" class="img-cover">
-                  </figure>
-
-                </li>
-
-                <li class="slider-item">
-
-                  <div class="hero-card">
-                    <figure class="img-holder" style="--width: 575; --height: 550;">
-                      <img src="./assets/images/img2.png" width="575" height="550" alt="hero banner"
-                        class="img-cover">
+            <div class="hero-slider" data-slider>
+              <div class="slider-inner">
+                <ul class="slider-container" data-slider-container>
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/img1.png"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
                     </figure>
+                  </li>
 
-                    <button class="play-btn" aria-label="play adex intro">
-                      <ion-icon name="play" aria-hidden="true"></ion-icon>
-                    </button>
-                  </div>
+                  <li class="slider-item">
+                    <div class="hero-card">
+                      <figure
+                        class="img-holder"
+                        style="--width: 575; --height: 550"
+                      >
+                        <img
+                          src="./assets/images/img2.png"
+                          width="575"
+                          height="550"
+                          alt="hero banner"
+                          class="img-cover"
+                        />
+                      </figure>
 
-                </li>
+                      <button class="play-btn" aria-label="play adex intro">
+                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      </button>
+                    </div>
+                  </li>
 
-                <li class="slider-item">
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/img3.png"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
 
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/img3.png" width="575" height="550" alt="" class="img-cover">
-                  </figure>
+              <button
+                class="slider-btn prev"
+                aria-label="slide to previous"
+                data-slider-prev
+              >
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
 
-                </li>
-
-              </ul>
+              <button
+                class="slider-btn next"
+                aria-label="slide to next"
+                data-slider-next
+              >
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
             </div>
-
-            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
-              <ion-icon name="arrow-back"></ion-icon>
-            </button>
-
-            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </button>
-
           </div>
+        </section>
 
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #SERVICE
       -->
 
-      <section class="section service" aria-labelledby="service-label">
-        <div class="container">
+        <section class="section service" aria-labelledby="service-label">
+          <div class="container">
+            <p class="section-subtitle" id="service-label">What We Do?</p>
 
-          <p class="section-subtitle" id="service-label">What We Do?</p>
+            <h2 class="h2 section-title">
+              The service we offer is specifically designed to meet your needs.
+            </h2>
 
-          <h2 class="h2 section-title">
-            The service we offer is specifically designed to meet your needs.
-          </h2>
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-          <ul class="grid-list">
+                  <h3 class="h4 card-title">
+                    🎯 Marketing Strategy & Execution
+                  </h3>
 
-            <li>
-              <div class="service-card">
+                  <p class="card-text">
+                    We develop and implement results-oriented marketing plans
+                    that align with your business goals—whether you're launching
+                    a brand or scaling up.
+                  </p>
 
-                <div class="card-icon">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">🎯 Marketing Strategy & Execution</h3>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="shield-checkmark-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-                <p class="card-text">
-                 We develop and implement results-oriented marketing plans that align with your business goals—whether you're launching a brand or scaling up.
-                </p>
+                  <h3 class="h4 card-title">
+                    🎨 Graphic Design & Brand Identity
+                  </h3>
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <p class="card-text">
+                    From logos to full brand kits, we design visually compelling
+                    assets that communicate your story clearly and memorably,
+                    across both print and digital platforms.
+                  </p>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
 
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">🎨 Graphic Design & Brand Identity</h3>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="cloud-download-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-                <p class="card-text">
-                 From logos to full brand kits, we design visually compelling assets that communicate your story clearly and memorably, across both print and digital platforms.
-                </p>
+                  <h3 class="h4 card-title">
+                    📱 Digital Marketing & Social Media
+                  </h3>
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <p class="card-text">
+                    We manage your online presence through smart, data-driven
+                    campaigns that maximize reach, engagement, and conversion.
+                  </p>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
 
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">📱 Digital Marketing & Social Media</h3>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="pie-chart-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-                <p class="card-text">
-                  We manage your online presence through smart, data-driven campaigns that maximize reach, engagement, and conversion.
-                </p>
+                  <h3 class="h4 card-title">🧠 Strategic Communication</h3>
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <p class="card-text">
+                    We simplify complex messages into easy-to-understand
+                    visuals, infographics, and multilingual content tailored to
+                    diverse audiences and literacy levels.
+                  </p>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
 
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
                 </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-                <h3 class="h4 card-title">🧠 Strategic Communication</h3>
-
-                <p class="card-text">
-                We simplify complex messages into easy-to-understand visuals, infographics, and multilingual content tailored to diverse audiences and literacy levels.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #ABOUT
       -->
 
-      <section class="about" aria-labelledby="about-label">
-        <div class="container">
+        <section class="about" aria-labelledby="about-label">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/img1.png"
+                width="800"
+                height="580"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
 
-          <figure class="about-banner">
-            <img src="./assets/images/img1.png" width="800" height="580" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
+            <div class="about-content">
+              <p class="section-subtitle" id="about-label">Why Choose Us?</p>
 
-          <div class="about-content">
+              <h2 class="h2 section-title">
+                At Blueprint, we don’t just deliver designs—we solve problems
+                through strategic, purposeful communication. Here’s why clients
+                trust us:
+              </h2>
 
-            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+              <ul>
+                <li class="about-item">
+                  <div class="accordion-card expanded" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
 
-            <h2 class="h2 section-title">
-             At Blueprint, we don’t just deliver designs—we solve problems through strategic, purposeful communication. Here’s why clients trust us:
-            </h2>
+                        <spna class="span h5">✅ Creative Ingenuity</spna>
+                      </button>
+                    </h3>
 
-            <ul>
+                    <p class="accordion-content">
+                      We thrive on fresh, unconventional ideas that make your
+                      brand stand out—without breaking your budget.
+                    </p>
+                  </div>
+                </li>
 
-              <li class="about-item">
-                <div class="accordion-card expanded" data-accordion>
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
 
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                        <spna class="span h5"
+                          >✅ Culturally Rooted Solutions</spna
+                        >
+                      </button>
+                    </h3>
 
-                      <spna class="span h5">✅ Creative Ingenuity</spna>
-                    </button>
-                  </h3>
+                    <p class="accordion-content">
+                      We design with deep understanding of local contexts,
+                      languages, and behavior—ensuring your message resonates
+                      with your real audience.
+                    </p>
+                  </div>
+                </li>
 
-                  <p class="accordion-content">
-                We thrive on fresh, unconventional ideas that make your brand stand out—without breaking your budget.
-                  </p>
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
 
-                </div>
-              </li>
+                        <spna class="span h5">✅ Proven Impact</spna>
+                      </button>
+                    </h3>
 
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">✅ Culturally Rooted Solutions</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                   We design with deep understanding of local contexts, languages, and behavior—ensuring your message resonates with your real audience.
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">✅ Proven Impact</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                   From awareness campaigns to corporate identity systems, our portfolio shows real-world results across Uganda and the region.
-                  </p>
-
-                </div>
-              </li>
-
-            </ul>
-
+                    <p class="accordion-content">
+                      From awareness campaigns to corporate identity systems,
+                      our portfolio shows real-world results across Uganda and
+                      the region.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
+        </section>
 
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #FEATURE
       -->
 
-      <!-- <section class="section feature" aria-labelledby="feature-label">
+        <!-- <section class="section feature" aria-labelledby="feature-label">
         <div class="container">
 
           <figure class="feature-banner">
@@ -525,12 +591,11 @@
 
  -->
 
-
-      <!-- 
+        <!-- 
         - #STATS
       -->
 
-      <!-- <section class="stats" aria-label="our stats">
+        <!-- <section class="stats" aria-label="our stats">
         <div class="container">
 
           <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
@@ -572,15 +637,11 @@
         </div>
       </section> -->
 
-
-
-
-
-      <!-- 
+        <!-- 
         - #PROJECT
       -->
 
-      <!-- <section class="section project" aria-labelledby="project-label">
+        <!-- <section class="section project" aria-labelledby="project-label">
         <div class="container">
 
           <p class="section-subtitle" id="project-label">Case Studies</p>
@@ -717,156 +778,144 @@
       </section>
  -->
 
-
-
-
-      <!-- 
+        <!-- 
         - #CTA
       -->
 
-      <section class="cta" aria-label="call to action">
-        <div class="container">
+        <section class="cta" aria-label="call to action">
+          <div class="container">
+            <h2 class="h2 section-title">
+              Join Us. Build Bold. Grow Smart. Partner with Blueprint and turn
+              your ideas into bold, impactful brands. Let’s create solutions
+              that speak, inspire, and drive real results—together.
+            </h2>
 
-          <h2 class="h2 section-title">
-           Join Us. Build Bold. Grow Smart.
-Partner with Blueprint and turn your ideas into bold, impactful brands. Let’s create solutions that speak, inspire, and drive real results—together.          </h2>
+            <!-- <a href="#" class="btn btn-primary">Try it For Free</a> -->
+          </div>
+        </section>
+      </article>
+    </main>
 
-          <!-- <a href="#" class="btn btn-primary">Try it For Free</a> -->
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
-    <div class="container grid-list">
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/light-logo.png"
+              width="74"
+              height="34"
+              alt="Adex home"
+            />
+          </a>
 
-      <div class="footer-brand">
+          <p class="footer-text">
+            &copy; 2025 Blueprint <br />
+            All rights reserved.
+          </p>
 
-        <a href="#" class="logo">
-          <img src="./assets/images/light-logo.png" width="74" height="34" alt="Adex home">
-        </a>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-        <p class="footer-text">
-          &copy; 2025 Blueprint <br> All rights reserved.
-        </p>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-        <ul class="social-list">
-
-        
-
+        <ul class="footer-list">
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
+            <p class="h4 footer-list-title">Get in Touch</p>
           </li>
 
-        
-
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
+            <address class="footer-text">Entebbe Uganda</address>
           </li>
 
-        
+          <li>
+            <a href="mailto:info@email.com" class="footer-link"
+              >info@blueprint.co.ug</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:001234567890" class="footer-link">+256 778 315 225</a>
+          </li>
         </ul>
 
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Learn More</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Story</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="h4 footer-list-title">Our Newsletter</p>
+
+          <p class="footer-text">
+            Subscribe to our newsletter to get our news & deals delivered to
+            you.
+          </p>
+
+          <form action="" class="input-wrapper">
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="input-field"
+            />
+
+            <button type="submit" class="submit-btn">Join</button>
+          </form>
+        </div>
       </div>
+    </footer>
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Get in Touch</p>
-        </li>
-
-        <li>
-          <address class="footer-text">
-            Entebbe Uganda
-          </address>
-        </li>
-
-        <li>
-          <a href="mailto:info@email.com" class="footer-link">info@blueprint.co.ug</a>
-        </li>
-
-        <li>
-          <a href="tel:001234567890" class="footer-link">+256 778 315 225</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-      </ul>
-
-      <div class="footer-list">
-
-        <p class="h4 footer-list-title">Our Newsletter</p>
-
-        <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
-        </p>
-
-        <form action="" class="input-wrapper">
-          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
-
-          <button type="submit" class="submit-btn">Join</button>
-        </form>
-
-      </div>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!-- 
+    <!-- 
     - ionicon
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
